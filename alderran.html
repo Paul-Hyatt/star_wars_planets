@@ -5,37 +5,62 @@
 
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type=text/css href="star_wars_planets.css">
 	<title>Alderran</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+          <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css" integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK"
+        crossorigin="anonymous">
 </head>
 
 <body>
 	<header>
-		<nav>
-			<ul>
-				<li>
-					<a href="index.html">Home page</a>
-				</li>
+		 <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
 
-				<li>
-					<a href="about.html">About Us</a>
-				</li>
-				<li>
-					<a href="eadu.html">View Eadu</a>
-				</li>
-				<li>
-					<a href="tatooine.html">View Tatooine</a>
-				</li>
-				<li>
-					<a href="endor.html">View Endor</a>
-				</li>
-			</ul>
-		</nav>
+            <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Alderran.html">Aldeeran</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Endor.html">Endor</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="Tatooine.html">Tatooine</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="Eadu.html">Eadu</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 	<h1>Alderran</h1>
 	</header>
 
 	<img class="centered" src="alderaan_destroyed.png" alt="Alderaan Destroyed" />
 	<h2>A dead planet, but with a colorful history.</h2>
+	<a class="btn btn-primary" href="https://starwars.fandom.com/wiki/Alderaan" role="button">Pre-Destruction</a>
+
 	<article>
 
 	<p>When we state that the planet is dead, we don't mean that it is just like Tatooine; a vast wasteland of desert. We mean we caused the planet to no longer exist after we blew it up. We didn't want to resort to blowing up Alderran, but the rebellion gave us no choice. They were plotting to use the planet as a means of building up a large enough strike force to attack the Emperor!</p>
@@ -48,7 +73,7 @@
 
 	<h3>Opportunities</h3>
 
-	<table>
+	<table class="table">
 		<thead>
 
 		</thead>
